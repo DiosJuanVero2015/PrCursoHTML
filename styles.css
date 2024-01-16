@@ -1,0 +1,144 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    margin: 0 0 1rem 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0;
+  }
+  
+  header h2 {
+    margin-top: 0;
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: #eee;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem 0 0;
+  }
+  
+  /* Cuerpo principal */
+  main {
+    padding: 2rem;
+  }
+  
+  /* Sección de Proyectos */
+  #Proyectos {
+    margin-bottom: 2rem;
+  }
+  
+  #Proyectos article {
+    margin-bottom: 2rem;
+  }
+  
+  #Proyectos article:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Sección de Experiencia Laboral */
+  #experiencia {
+    margin-bottom: 2rem;
+  }
+  
+  #experiencia article {
+    margin-bottom: 1rem;
+  }
+  
+  /* Sección de Habilidades */
+  #habilidades {
+    margin-bottom: 2rem;
+  }
+  
+  #habilidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #habilidades li {
+    margin: 0 1rem 1rem 0;
+  }
+  
+  /* Sección de Contacto */
+  #contacto {
+    margin-bottom: 2rem;
+  }
+  
+  #contacto ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contacto li {
+    margin-bottom: 1rem;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer .contacto,
+  footer .redes-sociales {
+    margin-bottom: 1rem;
+  }
+  
+  footer .derechos-de-autor {
+    border-top: 1px solid #fff;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+
